@@ -1,0 +1,30 @@
+# Local runtime data and user-uploaded assets
+data/*
+!data/.gitkeep
+*.sqlite3
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Streamlit and local validation output
+.streamlit/secrets.toml
+validation/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
